@@ -7,6 +7,7 @@ There are a variety of manufacturers of machines that take x-rays at each hospit
 * [Meta_UNet](#meta_unet)
 * [StarGAN_v1](#stargan_v1)
 * [StarGAN_v2](#stargan_v2)
+* [Histogram_transfer](#histogram_transfer)
 ----------------------
 
 ## Cycle_GAN 
@@ -61,5 +62,10 @@ Y. Choi et al. proposed the StarGAN_v2 network, [StarGAN v2: Diverse Image Synth
 #### Results
 The datasets are same as StarGAN_v1.            
 ![image](https://user-images.githubusercontent.com/48985628/188084256-2662c6a8-a105-439d-9f32-2ea7f42e6318.png)            
-It shows good results in terms of style to convert each domain into G Vendor. However, the exact resolution of the vertebrae are not obtained enough to perform segmentation.         
+It shows good results in terms of style to convert each domain into G Vendor. However, the exact resolution of the vertebrae are not obtained enough to perform segmentation.     
+
+## Histogram_transfer
+I tried image processing for domain adaptation to transform image histogram.                         
+![image](https://user-images.githubusercontent.com/48985628/188096230-bfd128e3-b4f7-435a-8e5f-9c71ddbea132.png)
+
 
