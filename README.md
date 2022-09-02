@@ -47,8 +47,19 @@ The proposed method was evaluated by source domain images and yielded an average
 ## StarGAN_v1
 As CycleGAN is only 1:1 domain transformable, I used a StarGAN network to convert it into many domains using one neural network.          
 Y. Choi et al. proposed the StarGAN_v1 network, [StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation](https://arxiv.org/abs/1711.09020)           
-#### Results      
+#### Datasets       
+F and D Vendor are source domains, and G vendor is a target domain.           
+![image](https://user-images.githubusercontent.com/48985628/188083639-6466fe91-1eb8-43dd-8ccc-08649c1e300a.png)
+
+#### Results    
 ![image](https://user-images.githubusercontent.com/48985628/188081137-11df38a3-d423-44fe-a747-830a073451ae.png)
 
 ## StarGAN_v2
+In StarGAN v1, there was a problem that each domain has similar results according to the original image. (Extensibility to various domains) StarGAN v2 complements these problems and generates various images with scalability for the domain.                     
+Y. Choi et al. proposed the StarGAN_v2 network, [StarGAN v2: Diverse Image Synthesis for Multiple Domains](https://arxiv.org/abs/1912.01865)             
+
+#### Results
+The datasets are same as StarGAN_v1.            
+![image](https://user-images.githubusercontent.com/48985628/188084256-2662c6a8-a105-439d-9f32-2ea7f42e6318.png)            
+It shows good results in terms of style to convert each domain into G Vendor. However, the exact resolution of the vertebrae are not obtained enough to perform segmentation.         
 
