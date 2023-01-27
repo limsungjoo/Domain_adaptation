@@ -30,7 +30,7 @@ Most of the models specialized in medical images use the U-Net structure, and it
 #### Results       
 Left is a source image and right is a transformed image. (same as input datasets of CycleGAN)                   
 ![image](https://user-images.githubusercontent.com/48985628/188071291-e1826349-c1ba-47bf-850d-9b573c24b67c.png)  
-The fake data synthesized by Cycle-UNetGAN was evaluated by the segmentation model. However, the results of domain adaptation for the segmentation model were lower than those of no domain adaptation.
+The fake data synthesized by Cycle-UNetGAN was evaluated by the segmentation model. 
 
 ## Few_shotGAN
 The normal domain adaptation method requires a large amount of data. The method of this model is to approach the unlabeled data of the source domain and to adapt it to the unconditional image generation.                    
